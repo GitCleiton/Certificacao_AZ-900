@@ -385,3 +385,635 @@ Azure Policy
 Importante: 
 O Azure Policy pode ajudar a criar uma política para regiões permitidas, o que permite restringir a implantação de máquinas virtuais a um local específico. 
 ---------------------------------------------------------------------------------------------------------------------------------- 
+
+
+# MATERIAL DO EXAMTOPICS #
+INICIO DOS SIMULADOS DIA A DIA: 
+ 
+1) Pergunta:  
+Sua empresa pretende assinar um plano de suporte do Azure. 
+O plano de suporte deve permitir que novas solicitações de suporte sejam abertas. 
+Quais dos seguintes são planos de suporte que permitirão isso? Responda arrastando a opção correta da lista para a área de resposta. 
+Selecione e coloque: 
+# Resposta correta:  
+# Options              # Answer
+Basic                    Developer
+Developer                Standard
+Standard                 PROFESSIONAL DIRECT
+ROFESSIONAL DIRECT       PREMIER
+PREMIER 
+
+Referéncias: 
+https://azure.microsoft.com/en-us/support/plans/ 
+
+ 
+2) Pergunta:  
+Sua empresa tem datacenters em Los Angeles e Nova York. A empresa tem uma assinatura do Microsoft Azure. 
+Você está configurando os dois datacenters como sites geo-clusterizados para resiliência do site. 
+Você precisa recomendar uma opção de redundância de armazenamento do Azure. 
+Você tem os seguintes requisitos de armazenamento de dados: 
+✑ Os dados devem ser armazenados em vários nós. 
+✑ Os dados devem ser armazenados em nós em localizações geográficas separadas. 
+✑ Os dados podem ser lidos do local secundário, bem como do local primário 
+Qual das seguintes opções de redundância armazenada do Azure você deve recomendar? 
+ 
+A. Armazenamento geo-redundante 
+B. Armazenamento geo-redundante somente leitura 
+C. Armazenamento redundante de zona 
+D. Armazenamento redundante localmente 
+Resposta:  
+A. Armazenamento geo-redundante 
+B. Armazenamento geo-redundante somente leitura 
+Mais votado 
+C. Armazenamento redundante de zona 
+D. Armazenamento redundante localmente 
+-------------------------------------------------------------------------------------------------------------------------------- 
+3) Pergunta: 
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+A assinatura do Azure da sua empresa inclui um plano de suporte Básico. 
+Eles gostariam de solicitar uma avaliação do design de um ambiente do Azure da Microsoft. No entanto, isso não é suportado pelo plano existente. 
+Você quer ter certeza de que a empresa assina um plano de suporte que permita essa funcionalidade, mantendo as despesas no mínimo. 
+Solução: você recomenda que a empresa assine o plano de suporte Professional Direct. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+B. Não 
+Mais votado 
+Ocultar solução Discussão 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+B (70%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+4) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Você tem a tarefa de implantar máquinas virtuais do Azure para sua empresa. 
+Você precisa usar a solução de implantação de nuvem apropriada. 
+Solução: você deve usar o Software como Serviço (SaaS). 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+Mais votado 
+Ocultar solução Discussão O 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+B (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+5) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Você tem a tarefa de implantar máquinas virtuais do Azure para sua empresa. 
+Você precisa usar a solução de implantação de nuvem apropriada. 
+Solução: você deve usar a Plataforma como Serviço (PaaS). 
+A solução atende à meta? 
+Resposta:  
+A. Sim 
+B. Não 
+Mais votado 
+Ocultar solução Discussão 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+6) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Você tem a tarefa de implantar máquinas virtuais do Azure para sua empresa. 
+Você precisa usar a solução de implantação de nuvem apropriada. 
+Solução: você deve usar a Infraestrutura como Serviço (IaaS). 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+Mais votado 
+B. Não 
+Ocultar solução Discussão O 
+Resposta correta: A 
+Distribuição de votos na comunidade 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+7) Pergunta:  
+Seus desenvolvedores criaram 10 aplicativos da Web que devem ser hospedados no Azure. 
+Você precisa determinar qual plano de nível da Web do Azure hospedará os aplicativos da Web. O plano de nível da Web deve atender aos seguintes requisitos: 
+✑ Os aplicativos da Web usarão domínios personalizados. 
+✑ Cada aplicativo da Web requer 10 GB de armazenamento. 
+✑ Cada aplicativo da Web deve ser executado em instâncias de computação dedicadas. 
+✑ O balanceamento de carga entre instâncias deve ser incluído. 
+✑ Os custos devem ser minimizados. 
+Qual plano de nível da Web você deve usar? 
+Resposta:  
+A. Padrão 
+B. Básico 
+C. Livre 
+D. Compartilhado 
+Ocultar solução Discussão 
+Resposta correta: A 
+Distribuição de votos na comunidade 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+8) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Você está planejando migrar uma empresa para o Azure. Cada uma das várias divisões da empresa terá um administrador para gerenciar os recursos do Azure usados por sua respectiva divisão. 
+Você quer ter certeza de que a implantação do Azure que você emprega permite que o Azure seja segmentado para as divisões, mantendo o esforço administrativo no mínimo. 
+Solução: você planeja usar vários diretórios do Azure Active Directory (Azure AD). 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+Mais votado 
+Ocultar solução Discussão O 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+9) Pergunta:  
+Seus desenvolvedores criaram um aplicativo da web de portal para usuários na filial de Miami. O aplicativo da web será acessível publicamente e usado pelos usuários de Miami para recuperar informações de clientes e produtos. O aplicativo da web está atualmente em execução em um ambiente de teste local. 
+Você planeja hospedar o aplicativo da web no Azure. 
+Você precisa determinar qual plano de nível da web do Azure hospedará o aplicativo da web. O plano de nível da web deve atender aos seguintes requisitos: 
+✑ O site usará a URL miami.weyland.com. 
+✑ O site será implantado em duas instâncias. 
+✑ O suporte SSL deve ser incluído. 
+✑ O site requer 12 GB de armazenamento. 
+✑ Os custos devem ser minimizados. 
+Qual plano de nível da web você deve usar? 
+ 
+A. Padrão 
+B. Básico 
+C. Livre 
+D. Compartilhado 
+Resposta:  
+Seus desenvolvedores criaram um aplicativo da web de portal para usuários na filial de Miami. 0 aplicativo da web será acessível publicamente e usado pelos usuários 
+de Miami para recuperar informações de clientes e produtos. 0 aplicativo da web está atualmente em execução em um ambiente de teste local. 
+Você planeja hospedar o aplicativo da web no Azure. 
+Você precisa determinar qual plano de nível da web do Azure hospedará o aplicativo da web. 0 plano de nível da web deve atender aos seguintes requisitos: 
+O site usará a URL miami.weyland.com. 
+0 site será implantado em duas instâncias. 
+O suporte SSL deve ser incluído. 
+O site requer 12 GB de armazenamento. 
+Os custos devem ser minimizados. 
+Qual plano de nível da web você deve usar? 
+A. Padrão 
+B. Básico 
+C. Livre 
+D. Compartilhado 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+10) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Sua empresa está planejando migrar todas as suas máquinas virtuais para uma assinatura do Azure paga conforme o uso. As máquinas virtuais estão atualmente hospedadas nos hosts Hyper-V em um data center. 
+Você precisa garantir que a solução Azure pretendida use o modelo de despesa correto. 
+Solução: você deve recomendar o uso do modelo de despesa elástico. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+B. Não 
+Mais votado 
+Ocultar solução Discussão 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+B (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+11) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Sua empresa está planejando migrar todas as suas máquinas virtuais para uma assinatura do Azure paga conforme o uso. As máquinas virtuais estão atualmente hospedadas nos hosts Hyper-V em um data center. 
+Você precisa garantir que a solução Azure pretendida use o modelo de despesa correto. 
+Solução: você deve recomendar o uso do modelo de despesa escalável. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+B. Não 
+Mais votado 
+Ocultar solução Discussão O 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+B (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+12) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Sua empresa está planejando migrar todas as suas máquinas virtuais para uma assinatura do Azure paga conforme o uso. As máquinas virtuais estão atualmente hospedadas nos hosts Hyper-V em um data center. 
+Você precisa garantir que a solução Azure pretendida use o modelo de despesa correto. 
+Solução: você deve recomendar o uso do modelo de despesa operacional. 
+A solução atende à meta? 
+Resposta:  
+A. Sim 
+Mais votado 
+B. Não 
+Ocultar solução Discussão O 
+Resposta correta: A 
+Distribuição de votos na comunidade 
+Um (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+13) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Você precisa implantar uma solução de Inteligência Artificial (IA) no Azure. 
+Você quer ter certeza de que é capaz de criar, testar e implantar análises preditivas para a solução. 
+Solução: você deve usar o Azure Cosmos DB. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+B. Não 
+Mais votado 
+Ocultar solução Discussão 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+B (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+14) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+A floresta do Active Directory da sua empresa inclui milhares de contas de usuário. 
+Você foi informado de que todos os recursos de rede serão migrados para o Azure. Depois disso, o data center local será desativado. 
+Você precisa empregar uma estratégia que reduza o efeito sobre os usuários, uma vez que a migração planejada tenha sido concluída. 
+Solução: você planeja sincronizar todas as contas de usuário do Active Directory com o Azure Active Directory (Azure AD). 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+Mais votado 
+B. Não 
+Ocultar solução Discussão O 
+Resposta correta: A 
+Distribuição de votos na comunidade 
+um (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+15) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Você precisa implantar uma solução de Inteligência Artificial (IA) no Azure. 
+Você quer ter certeza de que é capaz de criar, testar e implantar análises preditivas para a solução. 
+Solução: você deve usar o Azure Machine Learning Studio. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+Mais votado 
+B. Não 
+Ocultar solução Discussão 
+Resposta correta: A 
+Distribuição de votos na comunidade 
+um (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+16) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+A infraestrutura da sua empresa inclui várias unidades de negócios que precisam de um grande número de vários recursos do Azure para a operação diária. 
+Os recursos necessários para cada unidade de negócios são idênticos. 
+Você precisa sancionar uma estratégia para criar recursos do Azure automaticamente. 
+Solução: você recomenda que o serviço Azure API Management seja incluído na estratégia. 
+A solução atende à meta? 
+Resposta:  
+A. Sim 
+B. Não 
+Mais votado 
+Ocultar solução Discussão 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+B (95%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+17) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+A infraestrutura da sua empresa inclui várias unidades de negócios que precisam de um grande número de vários recursos do Azure para a operação diária. 
+Os recursos necessários para cada unidade de negócios são idênticos. 
+Você precisa sancionar uma estratégia para criar recursos do Azure automaticamente. 
+Solução: você recomenda que grupos de gerenciamento sejam incluídos na estratégia. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+B. Não 
+Mais votado 
+Ocultar solução Discussão O 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+Um (41 i) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+18) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+A infraestrutura da sua empresa inclui várias unidades de negócios que precisam de um grande número de vários recursos do Azure para a operação diária. 
+Os recursos necessários para cada unidade de negócios são idênticos. 
+Você precisa sancionar uma estratégia para criar recursos do Azure automaticamente. 
+Solução: você recomenda que os modelos do Azure Resource Manager sejam incluídos na estratégia. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+Mais votado 
+B. Não 
+Ocultar solução Discussão 
+Resposta correta: A 
+Distribuição de votos na comunidade 
+um (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+19) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Você tem a tarefa de implantar um aplicativo LOB crítico, que será instalado em uma máquina virtual, no Azure. 
+Você é informado de que a estratégia de implantação do aplicativo deve permitir uma disponibilidade garantida de 99,99%. Você precisa ter certeza de que a estratégia requer o mínimo possível de máquinas virtuais e zonas de disponibilidade. 
+Solução: você inclui duas máquinas virtuais e uma zona de disponibilidade em sua estratégia. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+B. Não 
+Mais votado 
+Ocultar solução Discussão O 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+B (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+20) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Você tem a tarefa de implantar um aplicativo LOB crítico, que será instalado em uma máquina virtual, no Azure. 
+Você é informado de que a estratégia de implantação do aplicativo deve permitir uma disponibilidade garantida de 99,99%. Você precisa ter certeza de que a estratégia requer o mínimo possível de máquinas virtuais e zonas de disponibilidade. 
+Solução: você inclui uma máquina virtual e duas zonas de disponibilidade em sua estratégia. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+B. Não 
+Mais votado 
+Ocultar solução Discussão O 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+B (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+21) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Você tem a tarefa de implantar um aplicativo LOB crítico, que será instalado em uma máquina virtual, no Azure. 
+Você é informado de que a estratégia de implantação do aplicativo deve permitir uma disponibilidade garantida de 99,99%. Você precisa ter certeza de que a estratégia requer o mínimo possível de máquinas virtuais e zonas de disponibilidade. 
+Solução: você inclui duas máquinas virtuais e duas zonas de disponibilidade em sua estratégia. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+Mais votado 
+B. Não 
+Ocultar solução Discussão 
+Resposta correta: A 
+Distribuição de votos na comunidade 
+Um 91%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+22) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Os desenvolvedores da sua empresa pretendem implantar um grande número de máquinas virtuais personalizadas semanalmente. Eles também removerão essas máquinas virtuais durante a mesma semana em que foram implantadas. Sessenta por cento das máquinas virtuais têm o Windows Server 2016 instalado, enquanto os outros quarenta por cento têm o Ubuntu Linux instalado. 
+Você precisa garantir que o esforço administrativo, necessário para esse processo, seja reduzido empregando um serviço Azure adequado. 
+Solução: você recomenda o uso do Microsoft Managed Desktop. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+Mais votado 
+Ocultar solução Discussão O 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+B (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+23) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Os desenvolvedores da sua empresa pretendem implantar um grande número de máquinas virtuais personalizadas semanalmente. Eles também removerão essas máquinas virtuais durante a mesma semana em que foram implantadas. Sessenta por cento das máquinas virtuais têm o Windows Server 2016 instalado, enquanto os outros quarenta por cento têm o Ubuntu Linux instalado. 
+Você precisa garantir que o esforço administrativo, necessário para esse processo, seja reduzido empregando um serviço Azure adequado. 
+Solução: você recomenda o uso de Instâncias de Máquinas Virtuais (VM) Reservadas do Azure. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+B. Não 
+Mais votado 
+Ocultar solução Discussão 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+B (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+24) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Os desenvolvedores da sua empresa pretendem implantar um grande número de máquinas virtuais personalizadas semanalmente. Eles também removerão essas máquinas virtuais durante a mesma semana em que foram implantadas. Sessenta por cento das máquinas virtuais têm o Windows Server 2016 instalado, enquanto os outros quarenta por cento têm o Ubuntu Linux instalado. 
+Você precisa garantir que o esforço administrativo, necessário para esse processo, seja reduzido empregando um serviço Azure adequado. 
+Solução: você recomenda o uso do Azure DevTest Labs. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+Mais votado 
+B. Não 
+Ocultar solução Discussão O 
+Resposta correta: A 
+Distribuição de votos na comunidade 
+um (77%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+25) Pergunta:  
+Sua empresa tem máquinas virtuais (VMs) hospedadas no Microsoft Azure. As VMs estão localizadas em uma única rede virtual do Azure chamada VNet1. 
+A empresa tem usuários que trabalham remotamente. Os trabalhadores remotos precisam de acesso às VMs na VNet1. 
+Você precisa fornecer acesso para os trabalhadores remotos. 
+O que você deve fazer? 
+ 
+A. Configure uma VPN Site-to-Site (S2S). 
+B. Configurar uma VPN VNet para VNet. 
+C. Configurar uma VPN ponto a site (P2S). 
+D. Configure o DirectAccess em uma VM do servidor Windows Server 2012. 
+E. Configurar uma VPN multi-site 
+Resposta:  
+A. Configure uma VPN Site-to-Site (S2S). 
+B. Configurar uma VPN VNet para VNet. 
+C. Configurar uma VPN ponto a site (P2S). 
+Mais votado 
+D. Configure o DirectAccess em uma VM do servidor Windows Server 2012. 
+E. Configurar uma VPN multi-site 
+Ocultar solução Discussão 
+Resposta correta: C 
+Distribuição de votos na comunidade 
+c (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+26) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Você foi informado por seus superiores sobre as intenções da empresa de automatizar a implantação do servidor no Azure. No entanto, há alguma preocupação de que credenciais administrativas possam ser descobertas durante esse processo. 
+Você precisa garantir que, durante a implantação, as credenciais administrativas sejam criptografadas usando uma solução adequada do Azure. 
+Solução: você recomenda o uso do Azure Information Protection. 
+A solução atende à meta? 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+B. Não 
+Mais votado 
+Ocultar solução Discussão 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+B (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+27) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Você foi informado por seus superiores sobre as intenções da empresa de automatizar a implantação do servidor no Azure. No entanto, há alguma preocupação de que credenciais administrativas possam ser descobertas durante esse processo. 
+Você precisa garantir que, durante a implantação, as credenciais administrativas sejam criptografadas usando uma solução adequada do Azure. 
+Solução: você recomenda o uso da Autenticação Multifator (MFA) do Azure. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+A. Sim 
+Mais votado 
+Ocultar solução Discussão 
+Resposta correta: B 
+Distribuição de votos na comunidade 
+B (100%) 
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+28) Pergunta:  
+ARRASTAR E SOLTAR - 
+A empresa gostaria de desenvolver uma solução em nuvem usando o Azure Government. O Azure Government só pode ser usado por certos tipos de clientes para desenvolver soluções em nuvem. 
+Quais dos seguintes são os tipos de clientes que podem usar o Azure Government nessa situação? Responda arrastando a opção correta da lista para a área de resposta. 
+Selecione e coloque: 
+ 
+Resposta:  
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+29) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Sua empresa tem um ambiente do Azure Active Directory (Azure AD). Os usuários ocasionalmente se conectam ao Azure AD pela Internet. 
+Você foi encarregado de garantir que os usuários que se conectam ao Azure AD pela Internet a partir de um endereço IP não identificado sejam automaticamente incentivados a alterar as senhas. 
+Solução: você configura o uso do Azure AD Identity Protection. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+30) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Sua empresa tem um ambiente do Azure Active Directory (Azure AD). Os usuários ocasionalmente se conectam ao Azure AD pela Internet. 
+Você foi encarregado de garantir que os usuários que se conectam ao Azure AD pela Internet a partir de um endereço IP não identificado sejam automaticamente incentivados a alterar as senhas. 
+Solução: você configura o uso do Azure AD Privileged Identity Management. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+31) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Você está planejando uma estratégia para implantar vários servidores web e servidores de banco de dados no Azure. 
+Essa estratégia deve permitir que os tipos de conexão entre os servidores web e os servidores de banco de dados sejam controlados. 
+Solução: você inclui grupos de segurança de rede (NSGs) em sua estratégia. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+32) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+Você está planejando uma estratégia para implantar vários servidores web e servidores de banco de dados no Azure. 
+Essa estratégia deve permitir que os tipos de conexão entre os servidores web e os servidores de banco de dados sejam controlados. 
+Solução: você inclui um gateway de rede local em sua estratégia. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+33) Pergunta:  
+Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
+A floresta do Active Directory da sua empresa inclui milhares de contas de usuário. 
+Você foi informado de que todos os recursos de rede serão migrados para o Azure. Depois disso, o data center local será desativado. 
+Você precisa empregar uma estratégia que reduza o efeito sobre os usuários, uma vez que a migração planejada tenha sido concluída. 
+Solução: você planeja exigir a Autenticação Multifator (MFA) do Azure. 
+A solução atende à meta? 
+ 
+A. Sim 
+B. Não 
+Resposta:  
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+34) Pergunta:  
+HOTSPOT - 
+Para cada uma das seguintes afirmações, selecione Sim se a afirmação for verdadeira. Caso contrário, selecione Não. 
+NOTA: Cada seleção correta vale um ponto. 
+Hot Area: 
+ 
+Resposta:  
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+35) Pergunta:  
+HOTSPOT - 
+Para cada uma das seguintes afirmações, selecione Sim se a afirmação for verdadeira. Caso contrário, selecione Não. 
+NOTA: Cada seleção correta vale um ponto. 
+Hot Area: 
+Resposta:  
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+36) Pergunta:  
+HOTSPOT - 
+Para completar a frase, selecione a opção apropriada na área de resposta. 
+Hot Area: 
+ 
+Resposta:  
+ 
+-------------------------------------------------------------------------------------------------------------------------------- 
+37) Pergunta:  
+Você tem uma rede local que contém vários servidores. 
+Você planeja migrar todos os servidores para o Azure. 
+Você precisa recomendar uma solução para garantir que alguns dos servidores estejam disponíveis se um único data center do Azure ficar offline por um longo período. 
+O que você deve incluir na recomendação? 
+ 
+A. tolerância a falhas 
+B. elasticidade 
+C. escalabilidade 
+D. baixa latência </
+
+
+
