@@ -405,8 +405,7 @@ PREMIER
 
 Referéncias: 
 https://azure.microsoft.com/en-us/support/plans/ 
-
- 
+--------------------------------------------------------------------------------------------------------------------------------  
 2) Pergunta:  
 Sua empresa tem datacenters em Los Angeles e Nova York. A empresa tem uma assinatura do Microsoft Azure. 
 Você está configurando os dois datacenters como sites geo-clusterizados para resiliência do site. 
@@ -417,88 +416,54 @@ Você tem os seguintes requisitos de armazenamento de dados:
 ✑ Os dados podem ser lidos do local secundário, bem como do local primário 
 Qual das seguintes opções de redundância armazenada do Azure você deve recomendar? 
  
-A. Armazenamento geo-redundante 
-B. Armazenamento geo-redundante somente leitura 
-C. Armazenamento redundante de zona 
-D. Armazenamento redundante localmente 
-Resposta:  
-A. Armazenamento geo-redundante 
-B. Armazenamento geo-redundante somente leitura 
-Mais votado 
-C. Armazenamento redundante de zona 
-D. Armazenamento redundante localmente 
+Resposta: Armazenamento geo-redundante somente leitura 
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 3) Pergunta: 
 Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
 A assinatura do Azure da sua empresa inclui um plano de suporte Básico. 
 Eles gostariam de solicitar uma avaliação do design de um ambiente do Azure da Microsoft. No entanto, isso não é suportado pelo plano existente. 
 Você quer ter certeza de que a empresa assina um plano de suporte que permita essa funcionalidade, mantendo as despesas no mínimo. 
 Solução: você recomenda que a empresa assine o plano de suporte Professional Direct. 
-A solução atende à meta? 
+A solução atende ao objetivo? 
  
-A. Sim 
-B. Não 
-Resposta:  
-A. Sim 
-B. Não 
-Mais votado 
-Ocultar solução Discussão 
-Resposta correta: B 
-Distribuição de votos na comunidade 
-B (70%) 
- 
+Resposta: Não 
+O plano de suporte Standard seria a opção mais econômica em comparação com o plano Professional Direct para esse requisito específico. 
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 4) Pergunta:  
 Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
 Você tem a tarefa de implantar máquinas virtuais do Azure para sua empresa. 
 Você precisa usar a solução de implantação de nuvem apropriada. 
 Solução: você deve usar o Software como Serviço (SaaS). 
-A solução atende à meta? 
+A solução atende ao objetivo?
  
-A. Sim 
-B. Não 
-Resposta:  
-A. Sim 
-Mais votado 
-Ocultar solução Discussão O 
-Resposta correta: B 
-Distribuição de votos na comunidade 
-B (100%) 
- 
+
+Resposta: Não
+Máquinas Virtuais é IaaS
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 5) Pergunta:  
 Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
 Você tem a tarefa de implantar máquinas virtuais do Azure para sua empresa. 
 Você precisa usar a solução de implantação de nuvem apropriada. 
 Solução: você deve usar a Plataforma como Serviço (PaaS). 
-A solução atende à meta? 
-Resposta:  
-A. Sim 
-B. Não 
-Mais votado 
-Ocultar solução Discussão 
-Resposta correta: B 
-Distribuição de votos na comunidade 
- 
+A solução atende ao objetivo? 
+
+Resposta: Não 
+Máquinas Virtuais é IaaS
 -------------------------------------------------------------------------------------------------------------------------------- 
 6) Pergunta:  
 Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
 Você tem a tarefa de implantar máquinas virtuais do Azure para sua empresa. 
 Você precisa usar a solução de implantação de nuvem apropriada. 
 Solução: você deve usar a Infraestrutura como Serviço (IaaS). 
-A solução atende à meta? 
+A solução atende ao objetivo? 
  
-A. Sim 
-B. Não 
-Resposta:  
-A. Sim 
-Mais votado 
-B. Não 
-Ocultar solução Discussão O 
-Resposta correta: A 
-Distribuição de votos na comunidade 
- 
+Resposta: Sim 
+Máquinas Virtuais é IaaS
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 7) Pergunta:  
 Seus desenvolvedores criaram 10 aplicativos da Web que devem ser hospedados no Azure. 
 Você precisa determinar qual plano de nível da Web do Azure hospedará os aplicativos da Web. O plano de nível da Web deve atender aos seguintes requisitos: 
@@ -508,33 +473,23 @@ Você precisa determinar qual plano de nível da Web do Azure hospedará os apli
 ✑ O balanceamento de carga entre instâncias deve ser incluído. 
 ✑ Os custos devem ser minimizados. 
 Qual plano de nível da Web você deve usar? 
-Resposta:  
-A. Padrão 
-B. Básico 
-C. Livre 
-D. Compartilhado 
-Ocultar solução Discussão 
-Resposta correta: A 
-Distribuição de votos na comunidade 
- 
+
+Resposta: Padrão 
+O plano Básico é mais econômico e adequado para ambientes de não produção, enquanto o plano Standard fornece recursos adicionais e suporte para ambientes de produção a um custo mais alto.
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 8) Pergunta:  
 Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
 Você está planejando migrar uma empresa para o Azure. Cada uma das várias divisões da empresa terá um administrador para gerenciar os recursos do Azure usados por sua respectiva divisão. 
 Você quer ter certeza de que a implantação do Azure que você emprega permite que o Azure seja segmentado para as divisões, mantendo o esforço administrativo no mínimo. 
 Solução: você planeja usar vários diretórios do Azure Active Directory (Azure AD). 
-A solução atende à meta? 
+A solução atende ao objetivo? 
  
-A. Sim 
-B. Não 
-Resposta:  
-A. Sim 
-Mais votado 
-Ocultar solução Discussão O 
-Resposta correta: B 
-Distribuição de votos na comunidade 
- 
+Resposta: Não 
+Usar vários diretórios do Azure AD não é a solução mais eficiente para atingir a meta de segmentar o Azure para diferentes divisões, mantendo os esforços administrativos no mínimo. Um único diretório do Azure AD com grupos de gerenciamento e assinaturas seria uma abordagem melhor.
+O ARM (Azure Resource Manager) fornece segmentação e isolamento.
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 9) Pergunta:  
 Seus desenvolvedores criaram um aplicativo da web de portal para usuários na filial de Miami. O aplicativo da web será acessível publicamente e usado pelos usuários de Miami para recuperar informações de clientes e produtos. O aplicativo da web está atualmente em execução em um ambiente de teste local. 
 Você planeja hospedar o aplicativo da web no Azure. 
@@ -546,46 +501,26 @@ Você precisa determinar qual plano de nível da web do Azure hospedará o aplic
 ✑ Os custos devem ser minimizados. 
 Qual plano de nível da web você deve usar? 
  
-A. Padrão 
-B. Básico 
-C. Livre 
-D. Compartilhado 
-Resposta:  
-Seus desenvolvedores criaram um aplicativo da web de portal para usuários na filial de Miami. 0 aplicativo da web será acessível publicamente e usado pelos usuários 
-de Miami para recuperar informações de clientes e produtos. 0 aplicativo da web está atualmente em execução em um ambiente de teste local. 
-Você planeja hospedar o aplicativo da web no Azure. 
-Você precisa determinar qual plano de nível da web do Azure hospedará o aplicativo da web. 0 plano de nível da web deve atender aos seguintes requisitos: 
-O site usará a URL miami.weyland.com. 
-0 site será implantado em duas instâncias. 
-O suporte SSL deve ser incluído. 
-O site requer 12 GB de armazenamento. 
-Os custos devem ser minimizados. 
-Qual plano de nível da web você deve usar? 
-A. Padrão 
-B. Básico 
-C. Livre 
-D. Compartilhado 
- 
+Resposta: Padrão 
+Considerando os requisitos para domínios personalizados, várias instâncias, suporte SSL, 12 GB de armazenamento e minimização de custos, o Plano Padrão é a escolha adequada, pois atende a todos os critérios especificados. 
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 10) Pergunta:  
 Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
 Sua empresa está planejando migrar todas as suas máquinas virtuais para uma assinatura do Azure paga conforme o uso. As máquinas virtuais estão atualmente hospedadas nos hosts Hyper-V em um data center. 
 Você precisa garantir que a solução Azure pretendida use o modelo de despesa correto. 
 Solução: você deve recomendar o uso do modelo de despesa elástico. 
-A solução atende à meta? 
+A solução atende ao objetivo? 
  
-A. Sim 
-B. Não 
-Resposta:  
-A. Sim 
-B. Não 
-Mais votado 
-Ocultar solução Discussão 
-Resposta correta: B 
-Distribuição de votos na comunidade 
-B (100%) 
- 
+Resposta: Não 
+Existem 2 tipos de modelo de despesas
+Despesas de Capital (CAPEX)
+Despesas Operacionais (OPEX)
+Portanto, o gasto elástico não é um modelo, a solução errada fornecida 
 -------------------------------------------------------------------------------------------------------------------------------- 
+
+parei aqui................................................................
+
 11) Pergunta:  
 Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
 Sua empresa está planejando migrar todas as suas máquinas virtuais para uma assinatura do Azure paga conforme o uso. As máquinas virtuais estão atualmente hospedadas nos hosts Hyper-V em um data center. 
