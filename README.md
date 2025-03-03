@@ -265,50 +265,37 @@ mínimo de 2 para ambos.
 22) Pergunta:  
 Os desenvolvedores da sua empresa pretendem implantar um grande número de máquinas virtuais personalizadas semanalmente. Eles também removerão essas máquinas virtuais durante a mesma semana em que foram implantadas. Sessenta por cento das máquinas virtuais têm o Windows Server 2016 instalado, enquanto os outros quarenta por cento têm o Ubuntu Linux instalado. 
 Você precisa garantir que o esforço administrativo, necessário para esse processo, seja reduzido empregando um serviço Azure adequado. 
-Solução: você recomenda o uso do Microsoft Managed Desktop. 
-A solução atende ao objetivo? 
+Solução: você recomenda o uso da Área de Trabalho Gerenciada da Microsoft.
+A solução atende ao objetivo?
  
-Resposta correta: B 
- 
+Resposta correta: Não
+ foi mencionado que "os desenvolvedores pretendem implantar e remover a VM na mesma semana". A palavra-chave é "desenvolvedores" e "implantar e remover". Muito provavelmente é o ambiente de teste. Portanto, DevTest é a resposta correta e mais relevante para este cenário.
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 23) Pergunta:  
-Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
-Os desenvolvedores da sua empresa pretendem implantar um grande número de máquinas virtuais personalizadas semanalmente. Eles também removerão essas máquinas virtuais durante a mesma semana em que foram implantadas. Sessenta por cento das máquinas virtuais têm o Windows Server 2016 instalado, enquanto os outros quarenta por cento têm o Ubuntu Linux instalado. 
-Você precisa garantir que o esforço administrativo, necessário para esse processo, seja reduzido empregando um serviço Azure adequado. 
-Solução: você recomenda o uso de Instâncias de Máquinas Virtuais (VM) Reservadas do Azure. 
-A solução atende à meta? 
+  Os desenvolvedores da sua empresa pretendem implantar um grande número de máquinas virtuais personalizadas semanalmente. Eles também removerão essas
+  máquinas virtuais durante a mesma semana em que foram implantadas. Sessenta por cento das máquinas virtuais têm o Windows Server 2016 instalado,
+  enquanto os outros quarenta por cento têm o Ubuntu Linux instalado. 
+  Você precisa garantir que o esforço administrativo, necessário para esse processo, seja reduzido empregando um serviço Azure adequado. 
+  Solução: você recomenda o uso de Instâncias de Máquinas Virtuais (VM) Reservadas do Azure. 
+  A solução atende à meta? 
  
-A. Sim 
-B. Não 
-Resposta:  
-A. Sim 
-B. Não 
-Mais votado 
-Ocultar solução Discussão 
-Resposta correta: B 
-Distribuição de votos na comunidade 
-B (100%) 
- 
+Resposta correta: Não
+O Azure DevTest Labs permite que você crie ambientes rapidamente usando modelos e artefatos reutilizáveis.
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 24) Pergunta:  
-Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
-Os desenvolvedores da sua empresa pretendem implantar um grande número de máquinas virtuais personalizadas semanalmente. Eles também removerão essas máquinas virtuais durante a mesma semana em que foram implantadas. Sessenta por cento das máquinas virtuais têm o Windows Server 2016 instalado, enquanto os outros quarenta por cento têm o Ubuntu Linux instalado. 
-Você precisa garantir que o esforço administrativo, necessário para esse processo, seja reduzido empregando um serviço Azure adequado. 
-Solução: você recomenda o uso do Azure DevTest Labs. 
-A solução atende à meta? 
+  Os desenvolvedores da sua empresa pretendem implantar um grande número de máquinas virtuais personalizadas semanalmente. Eles também removerão essas
+  máquinas virtuais durante a mesma semana em que foram implantadas. Sessenta por cento das máquinas virtuais têm o Windows Server 2016 instalado,
+  enquanto os outros quarenta por cento têm o Ubuntu Linux instalado. 
+  Você precisa garantir que o esforço administrativo, necessário para esse processo, seja reduzido empregando um serviço Azure adequado. 
+  Solução: você recomenda o uso do Azure DevTest Labs. 
+  A solução atende à meta? 
  
-A. Sim 
-B. Não 
-Resposta:  
-A. Sim 
-Mais votado 
-B. Não 
-Ocultar solução Discussão O 
-Resposta correta: A 
-Distribuição de votos na comunidade 
-um (77%) 
- 
+Resposta correta: Sim
+e estivermos usando o ambiente de teste, a resposta será Azure DevTest Labs e, se o ambiente for de produção, a resposta será Conjuntos de Dimensionamento de Máquinas Virtuais. 
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 25) Pergunta:  
 Sua empresa tem máquinas virtuais (VMs) hospedadas no Microsoft Azure. As VMs estão localizadas em uma única rede virtual do Azure chamada VNet1. 
 A empresa tem usuários que trabalham remotamente. Os trabalhadores remotos precisam de acesso às VMs na VNet1. 
@@ -320,55 +307,35 @@ B. Configurar uma VPN VNet para VNet.
 C. Configurar uma VPN ponto a site (P2S). 
 D. Configure o DirectAccess em uma VM do servidor Windows Server 2012. 
 E. Configurar uma VPN multi-site 
-Resposta:  
-A. Configure uma VPN Site-to-Site (S2S). 
-B. Configurar uma VPN VNet para VNet. 
+
+Resposta correta:  
 C. Configurar uma VPN ponto a site (P2S). 
-Mais votado 
-D. Configure o DirectAccess em uma VM do servidor Windows Server 2012. 
-E. Configurar uma VPN multi-site 
-Ocultar solução Discussão 
-Resposta correta: C 
-Distribuição de votos na comunidade 
-c (100%) 
- 
+Uma conexão de gateway de VPN P2S (ponto a site) permite que você crie uma conexão segura com sua rede virtual a partir de um computador cliente individual.
+A VPN P2S também é uma solução útil para usar em vez da VPN S2S quando você tem apenas alguns clientes que precisam se conectar a uma VNet.
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 26) Pergunta:  
-Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
 Você foi informado por seus superiores sobre as intenções da empresa de automatizar a implantação do servidor no Azure. No entanto, há alguma preocupação de que credenciais administrativas possam ser descobertas durante esse processo. 
 Você precisa garantir que, durante a implantação, as credenciais administrativas sejam criptografadas usando uma solução adequada do Azure. 
 Solução: você recomenda o uso do Azure Information Protection. 
 A solução atende à meta? 
-A. Sim 
-B. Não 
-Resposta:  
-A. Sim 
-B. Não 
-Mais votado 
-Ocultar solução Discussão 
-Resposta correta: B 
-Distribuição de votos na comunidade 
-B (100%) 
- 
+
+Resposta correta: Não
+A AIP (Proteção de Informações do Azure) é uma solução baseada em nuvem que permite que as organizações descubram, classifiquem e protejam documentos e emails aplicando rótulos ao conteúdo. 
+Para criptografar credenciais administrativas durante a implantação do servidor no Azure, uma solução melhor seria usar o Azure Key Vault. O Azure Key Vault é um serviço baseado em nuvem que fornece armazenamento seguro de chaves, segredos e certificados. Ao armazenar as credenciais administrativas no Azure Key Vault, elas podem ser criptografadas e protegidas contra acesso não autorizado.
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 27) Pergunta:  
-Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
 Você foi informado por seus superiores sobre as intenções da empresa de automatizar a implantação do servidor no Azure. No entanto, há alguma preocupação de que credenciais administrativas possam ser descobertas durante esse processo. 
 Você precisa garantir que, durante a implantação, as credenciais administrativas sejam criptografadas usando uma solução adequada do Azure. 
 Solução: você recomenda o uso da Autenticação Multifator (MFA) do Azure. 
 A solução atende à meta? 
  
-A. Sim 
-B. Não 
-Resposta:  
-A. Sim 
-Mais votado 
-Ocultar solução Discussão 
-Resposta correta: B 
-Distribuição de votos na comunidade 
-B (100%) 
- 
+Resposta correta: Não
+A MFA adiciona uma camada adicional ao processo de autenticação, mas não mantém sua credencial segura. 
+Para criptografar credenciais administrativas durante a implantação do servidor no Azure, uma solução melhor seria usar o Azure Key Vault. O Azure Key Vault é um serviço baseado em nuvem que fornece armazenamento seguro de chaves, segredos e certificados. Ao armazenar as credenciais administrativas no Azure Key Vault, elas podem ser criptografadas e protegidas contra acesso não autorizado.
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 28) Pergunta:  
 ARRASTAR E SOLTAR - 
 A empresa gostaria de desenvolver uma solução em nuvem usando o Azure Government. O Azure Government só pode ser usado por certos tipos de clientes para desenvolver soluções em nuvem. 
@@ -376,42 +343,39 @@ Quais dos seguintes são os tipos de clientes que podem usar o Azure Government 
 Selecione e coloque: 
  
 Resposta:  
- 
+ ![image](https://github.com/user-attachments/assets/ba1ba606-c29a-4174-a039-68be4b6001a0)
+
 -------------------------------------------------------------------------------------------------------------------------------- 
 29) Pergunta:  
-Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
-Sua empresa tem um ambiente do Azure Active Directory (Azure AD). Os usuários ocasionalmente se conectam ao Azure AD pela Internet. 
-Você foi encarregado de garantir que os usuários que se conectam ao Azure AD pela Internet a partir de um endereço IP não identificado sejam automaticamente incentivados a alterar as senhas. 
-Solução: você configura o uso do Azure AD Identity Protection. 
-A solução atende à meta? 
+  Sua empresa tem um ambiente do Azure Active Directory (Azure AD). Os usuários ocasionalmente se conectam ao Azure AD pela Internet. 
+  Você foi encarregado de garantir que os usuários que se conectam ao Azure AD pela Internet a partir de um endereço IP não identificado sejam
+  automaticamente incentivados a alterar as senhas. 
+  Solução: você configura o uso do Azure AD Identity Protection. 
+  A solução atende à meta? 
  
-A. Sim 
-B. Não 
-Resposta:  
- 
+  Resposta: Sim
+ Sim, a solução atende ao objetivo. O Azure AD Identity Protection fornece as ferramentas e políticas necessárias para detectar e responder a atividades 
+ suspeitas, como entradas de endereços IP não identificados. Ao configurar o Azure AD Identity Protection, você pode configurar políticas baseadas em 
+ risco que solicitam que os usuários alterem suas senhas quando uma entrada é detectada de um endereço IP desconhecido ou arriscado.
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 30) Pergunta:  
-Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
-Sua empresa tem um ambiente do Azure Active Directory (Azure AD). Os usuários ocasionalmente se conectam ao Azure AD pela Internet. 
-Você foi encarregado de garantir que os usuários que se conectam ao Azure AD pela Internet a partir de um endereço IP não identificado sejam automaticamente incentivados a alterar as senhas. 
-Solução: você configura o uso do Azure AD Privileged Identity Management. 
-A solução atende à meta? 
+  Sua empresa tem um ambiente do Azure Active Directory (Azure AD). Os usuários ocasionalmente se conectam ao Azure AD pela Internet. 
+  Você foi encarregado de garantir que os usuários que se conectam ao Azure AD pela Internet a partir de um endereço IP não identificado sejam   automaticamente incentivados a alterar as senhas. 
+  Solução: você configura o uso do Azure AD Privileged Identity Management. 
+  A solução atende à meta? 
  
-A. Sim 
-B. Não 
-Resposta:  
- 
+Resposta: Não
+A AIP (Proteção de Informações do Azure) é uma solução baseada em nuvem que permite que as organizações descubram, classifiquem e protejam documentos e emails aplicando rótulos ao conteúdo. 
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 31) Pergunta:  
-Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
-Você está planejando uma estratégia para implantar vários servidores web e servidores de banco de dados no Azure. 
-Essa estratégia deve permitir que os tipos de conexão entre os servidores web e os servidores de banco de dados sejam controlados. 
-Solução: você inclui grupos de segurança de rede (NSGs) em sua estratégia. 
-A solução atende à meta? 
+  Você está planejando uma estratégia para implantar vários servidores web e servidores de banco de dados no Azure. 
+  Essa estratégia deve permitir que os tipos de conexão entre os servidores web e os servidores de banco de dados sejam controlados. 
+  Solução: você inclui grupos de segurança de rede (NSGs) em sua estratégia. 
+  A solução atende à meta? 
  
-A. Sim 
-B. Não 
-Resposta:  
+Resposta: 
  
 -------------------------------------------------------------------------------------------------------------------------------- 
 32) Pergunta:  
