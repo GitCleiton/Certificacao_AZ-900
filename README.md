@@ -278,7 +278,7 @@ Resposta correta: Não
   enquanto os outros quarenta por cento têm o Ubuntu Linux instalado. 
   Você precisa garantir que o esforço administrativo, necessário para esse processo, seja reduzido empregando um serviço Azure adequado. 
   Solução: você recomenda o uso de Instâncias de Máquinas Virtuais (VM) Reservadas do Azure. 
-  A solução atende à meta? 
+  A solução atende ao objetivo? 
  
 Resposta correta: Não
 O Azure DevTest Labs permite que você crie ambientes rapidamente usando modelos e artefatos reutilizáveis.
@@ -290,7 +290,7 @@ O Azure DevTest Labs permite que você crie ambientes rapidamente usando modelos
   enquanto os outros quarenta por cento têm o Ubuntu Linux instalado. 
   Você precisa garantir que o esforço administrativo, necessário para esse processo, seja reduzido empregando um serviço Azure adequado. 
   Solução: você recomenda o uso do Azure DevTest Labs. 
-  A solução atende à meta? 
+  A solução atende ao objetivo? 
  
 Resposta correta: Sim
 e estivermos usando o ambiente de teste, a resposta será Azure DevTest Labs e, se o ambiente for de produção, a resposta será Conjuntos de Dimensionamento de Máquinas Virtuais. 
@@ -318,7 +318,7 @@ A VPN P2S também é uma solução útil para usar em vez da VPN S2S quando voc�
 Você foi informado por seus superiores sobre as intenções da empresa de automatizar a implantação do servidor no Azure. No entanto, há alguma preocupação de que credenciais administrativas possam ser descobertas durante esse processo. 
 Você precisa garantir que, durante a implantação, as credenciais administrativas sejam criptografadas usando uma solução adequada do Azure. 
 Solução: você recomenda o uso do Azure Information Protection. 
-A solução atende à meta? 
+A solução atende ao objetivo? 
 
 Resposta correta: Não
 A AIP (Proteção de Informações do Azure) é uma solução baseada em nuvem que permite que as organizações descubram, classifiquem e protejam documentos e emails aplicando rótulos ao conteúdo. 
@@ -329,7 +329,7 @@ Para criptografar credenciais administrativas durante a implantação do servido
 Você foi informado por seus superiores sobre as intenções da empresa de automatizar a implantação do servidor no Azure. No entanto, há alguma preocupação de que credenciais administrativas possam ser descobertas durante esse processo. 
 Você precisa garantir que, durante a implantação, as credenciais administrativas sejam criptografadas usando uma solução adequada do Azure. 
 Solução: você recomenda o uso da Autenticação Multifator (MFA) do Azure. 
-A solução atende à meta? 
+A solução atende ao objetivo? 
  
 Resposta correta: Não
 A MFA adiciona uma camada adicional ao processo de autenticação, mas não mantém sua credencial segura. 
@@ -351,10 +351,10 @@ Resposta:
   Você foi encarregado de garantir que os usuários que se conectam ao Azure AD pela Internet a partir de um endereço IP não identificado sejam
   automaticamente incentivados a alterar as senhas. 
   Solução: você configura o uso do Azure AD Identity Protection. 
-  A solução atende à meta? 
+  A solução atende ao objetivo? 
  
   Resposta: Sim
- Sim, a solução atende ao objetivo. O Azure AD Identity Protection fornece as ferramentas e políticas necessárias para detectar e responder a atividades 
+ A solução atende ao objetivo. O Azure AD Identity Protection fornece as ferramentas e políticas necessárias para detectar e responder a atividades 
  suspeitas, como entradas de endereços IP não identificados. Ao configurar o Azure AD Identity Protection, você pode configurar políticas baseadas em 
  risco que solicitam que os usuários alterem suas senhas quando uma entrada é detectada de um endereço IP desconhecido ou arriscado.
 -------------------------------------------------------------------------------------------------------------------------------- 
@@ -363,7 +363,7 @@ Resposta:
   Sua empresa tem um ambiente do Azure Active Directory (Azure AD). Os usuários ocasionalmente se conectam ao Azure AD pela Internet. 
   Você foi encarregado de garantir que os usuários que se conectam ao Azure AD pela Internet a partir de um endereço IP não identificado sejam   automaticamente incentivados a alterar as senhas. 
   Solução: você configura o uso do Azure AD Privileged Identity Management. 
-  A solução atende à meta? 
+  A solução atende ao objetivo? 
  
 Resposta: Não
 A AIP (Proteção de Informações do Azure) é uma solução baseada em nuvem que permite que as organizações descubram, classifiquem e protejam documentos e emails aplicando rótulos ao conteúdo. 
@@ -373,35 +373,31 @@ A AIP (Proteção de Informações do Azure) é uma solução baseada em nuvem q
   Você está planejando uma estratégia para implantar vários servidores web e servidores de banco de dados no Azure. 
   Essa estratégia deve permitir que os tipos de conexão entre os servidores web e os servidores de banco de dados sejam controlados. 
   Solução: você inclui grupos de segurança de rede (NSGs) em sua estratégia. 
-  A solução atende à meta? 
+  A solução atende ao objetivo? 
  
-Resposta: 
- 
+Resposta: Sim
+NSG Os grupos de segurança de rede podem ajudar a definir a conexão entre os servidores a serem controlados. 
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 32) Pergunta:  
-Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
-Você está planejando uma estratégia para implantar vários servidores web e servidores de banco de dados no Azure. 
-Essa estratégia deve permitir que os tipos de conexão entre os servidores web e os servidores de banco de dados sejam controlados. 
-Solução: você inclui um gateway de rede local em sua estratégia. 
-A solução atende à meta? 
+  Você está planejando uma estratégia para implantar vários servidores web e servidores de banco de dados no Azure. 
+  Essa estratégia deve permitir que os tipos de conexão entre os servidores web e os servidores de banco de dados sejam controlados. 
+  Solução: você inclui um gateway de rede local em sua estratégia. 
+  A solução atende ao objetivo? 
  
-A. Sim 
-B. Não 
-Resposta:  
- 
+Resposta: Não
+Um gateway de rede local representa o dispositivo VPN de hardware ou software em sua rede local. Use isso com uma conexão para configurar uma conexão VPN site a site entre uma rede virtual do Azure e sua rede local. 
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 33) Pergunta:  
-Observação: a pergunta está incluída em várias perguntas que descrevem a configuração idêntica. No entanto, cada pergunta tem um resultado distinto. Estabeleça se a solução atende aos requisitos. 
-A floresta do Active Directory da sua empresa inclui milhares de contas de usuário. 
-Você foi informado de que todos os recursos de rede serão migrados para o Azure. Depois disso, o data center local será desativado. 
-Você precisa empregar uma estratégia que reduza o efeito sobre os usuários, uma vez que a migração planejada tenha sido concluída. 
-Solução: você planeja exigir a Autenticação Multifator (MFA) do Azure. 
-A solução atende à meta? 
+  A floresta do Active Directory da sua empresa inclui milhares de contas de usuário. 
+  Você foi informado de que todos os recursos de rede serão migrados para o Azure. Depois disso, o data center local será desativado. 
+  Você precisa empregar uma estratégia que reduza o efeito sobre os usuários, uma vez que a migração planejada tenha sido concluída. 
+  Solução: você planeja exigir a Autenticação Multifator (MFA) do Azure. 
+  A solução atende ao objetivo? 
  
-A. Sim 
-B. Não 
-Resposta:  
- 
+Resposta: Não
+A melhor maneira de resolver esse problema seria sincronizar todas as contas de usuário do Active Directory com o Azure Active Directory (Azure AD). 
 -------------------------------------------------------------------------------------------------------------------------------- 
 34) Pergunta:  
 HOTSPOT - 
@@ -410,7 +406,18 @@ NOTA: Cada seleção correta vale um ponto.
 Hot Area: 
  
 Resposta:  
- 
+ ![image](https://github.com/user-attachments/assets/4a8c1b60-155e-49d0-a378-8e399cbffa04)
+
+Caixa 1: Não -
+Uma solução PaaS não fornece acesso ao sistema operacional. O serviço de Aplicativos Web do Azure fornece um ambiente para você hospedar seus aplicativos Web.
+Nos bastidores, os aplicativos Web são hospedados em máquinas virtuais que executam o IIS. No entanto, você não tem acesso direto à máquina virtual, ao sistema operacional ou
+ao IIS.
+Caixa 2: Sim –
+Uma solução de PaaS que hospeda aplicativos Web no Azure fornece a capacidade de dimensionar a plataforma automaticamente. Isso é conhecido como dimensionamento automático. Nos bastidores, os aplicativos Web são hospedados em máquinas virtuais que executam o IIS. O dimensionamento automático significa adicionar mais máquinas virtuais com balanceamento de carga para hospedar os aplicativos Web.Caixa
+3: Sim -
+O PaaS fornece uma estrutura sobre a qual os desenvolvedores podem desenvolver ou personalizar aplicativos baseados em nuvem. As ferramentas de desenvolvimento de PaaS podem reduzir o tempo necessário para codificar novos aplicativos com componentes de aplicativos pré-codificados integrados à plataforma, como fluxo de trabalho, serviços de diretório, recursos de segurança, pesquisa e assim por diante.
+Referências:
+https://azure.microsoft.com/en-gb/overview/what-is-paas/
 -------------------------------------------------------------------------------------------------------------------------------- 
 35) Pergunta:  
 HOTSPOT - 
