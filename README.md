@@ -412,45 +412,310 @@ Caixa 1: Não -
 Uma solução PaaS não fornece acesso ao sistema operacional. O serviço de Aplicativos Web do Azure fornece um ambiente para você hospedar seus aplicativos Web.
 Nos bastidores, os aplicativos Web são hospedados em máquinas virtuais que executam o IIS. No entanto, você não tem acesso direto à máquina virtual, ao sistema operacional ou
 ao IIS.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Caixa 2: Sim –
 Uma solução de PaaS que hospeda aplicativos Web no Azure fornece a capacidade de dimensionar a plataforma automaticamente. Isso é conhecido como dimensionamento automático. Nos bastidores, os aplicativos Web são hospedados em máquinas virtuais que executam o IIS. O dimensionamento automático significa adicionar mais máquinas virtuais com balanceamento de carga para hospedar os aplicativos Web.Caixa
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3: Sim -
 O PaaS fornece uma estrutura sobre a qual os desenvolvedores podem desenvolver ou personalizar aplicativos baseados em nuvem. As ferramentas de desenvolvimento de PaaS podem reduzir o tempo necessário para codificar novos aplicativos com componentes de aplicativos pré-codificados integrados à plataforma, como fluxo de trabalho, serviços de diretório, recursos de segurança, pesquisa e assim por diante.
 Referências:
 https://azure.microsoft.com/en-gb/overview/what-is-paas/
--------------------------------------------------------------------------------------------------------------------------------- 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 35) Pergunta:  
 HOTSPOT - 
 Para cada uma das seguintes afirmações, selecione Sim se a afirmação for verdadeira. Caso contrário, selecione Não. 
 NOTA: Cada seleção correta vale um ponto. 
 Hot Area: 
 Resposta:  
- 
+![image](https://github.com/user-attachments/assets/6cf44c5c-ff0c-4456-8876-4ebbe9f7cb22)
+
+Caixa 1: Sim -
+Tradicionalmente, as despesas de TI têm sido consideradas uma Despesa de Capital (CapEx). Hoje, com a mudança para a nuvem e o modelo de pagamento conforme o uso, as organizações têm a capacidade de esticar seus orçamentos e estão transferindo seus custos de CapEx de TI para despesas operacionais (OpEx). Essa flexibilidade, em termos contábeis, agora é uma opção devido ao modelo ג€as a Serviceג€ de compra de software, armazenamento em nuvem e outros recursos relacionados a TI.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Caixa 2: Não -
+Duas máquinas virtuais usando o mesmo tamanho podem ter configurações de disco diferentes. Portanto, os custos mensais podem ser diferentes.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Caixa 3: Sim –
+Quando uma máquina virtual do Azure é interrompida, você não paga pela máquina virtual. No entanto, você ainda paga pelos custos de armazenamento associados à máquina virtual.
+Os custos de armazenamento mais comuns são para os discos conectados às máquinas virtuais. Há também outros custos de armazenamento associados a uma máquina virtual, como armazenamento para dados de diagnóstico e backups de máquina virtual.
+Referências:
+https://meritsolutions.com/capex-vs-opex-cloud-computing-blog/
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 36) Pergunta:  
 HOTSPOT - 
-Para completar a frase, selecione a opção apropriada na área de resposta. 
-Hot Area: 
- 
-Resposta:  
- 
+Para completar a frase, selecione a opção apropriada na área de resposta.
+Pergunta: Quando vc esta Implementando um Software cmo Serviço (SaaS), Vc é responsável por:
+
+Resposta: configurando a solução SaaS
+![image](https://github.com/user-attachments/assets/91980cc9-f3c3-4f7b-a113-0d28b29adcc7)
+Ao implementar uma solução de Software como Serviço (SaaS), você é responsável por configurar a solução SaaS. Todo o resto é gerenciado pelo provedor de nuvem.
+O SaaS requer o mínimo de gerenciamento. O provedor de nuvem é responsável por gerenciar tudo e o usuário final apenas usa o software.
+O software como serviço (SaaS) permite que os usuários se conectem e usem aplicativos baseados em nuvem pela Internet. Exemplos comuns são e-mail, calendário e ferramentas
+de escritório (como o Microsoft Office 365).
+O SaaS fornece uma solução de software completa que você compra com pagamento conforme o uso de um provedor de serviços em nuvem. Você aluga o uso de um aplicativo para sua organização e seus usuários se conectam a ele pela Internet, geralmente com um navegador da Web. Toda a infraestrutura subjacente, middleware, software de aplicativo e dados de aplicativos estão localizados no data center do provedor de serviços. O provedor de serviços gerencia o hardware e o software e, com o contrato de serviço apropriado, garantirá a disponibilidade e a segurança do aplicativo e também dos seus dados.
+Referência:
+https://azure.microsoft.com/en-in/overview/what-is-saas/
+https://docs.microsoft.com/en-gb/learn/modules/principles-cloud-computing/5-types-of-cloud-services
 -------------------------------------------------------------------------------------------------------------------------------- 
+
 37) Pergunta:  
 Você tem uma rede local que contém vários servidores. 
 Você planeja migrar todos os servidores para o Azure. 
 Você precisa recomendar uma solução para garantir que alguns dos servidores estejam disponíveis se um único data center do Azure ficar offline por um longo período. 
 O que você deve incluir na recomendação? 
- 
-A. tolerância a falhas 
-B. elasticidade 
-C. escalabilidade 
-D. baixa latência </
 
-
--------------------------------------------------------------------------------------------------------------------------------- 
+Resposta: 
+![image](https://github.com/user-attachments/assets/8f468b9c-9547-44bf-abaf-f98e84c5cbb3)
 -------------------------------------------------------------------------------------------------------------------------------- 
 
+38) Pergunta:
+    Para completar a frase, selecione a opção apropriada na área de resposta.
+    Uma organização que hospeda sua Infraestrutura _ _ _ _ _ _ _ não requere nenhum data center
+
+Resposta:
+![image](https://github.com/user-attachments/assets/d9df121c-79d1-41d7-9b34-8f5780b8b013)
+Uma nuvem privada está hospedada em seu datacenter. Portanto, você não pode fechar seu datacenter se estiver usando uma nuvem privada.
+Uma nuvem pública é hospedada externamente, por exemplo, no Microsoft Azure. Uma organização que hospeda sua infraestrutura em uma nuvem pública pode fechar seu data center.
+A nuvem pública é o modelo de implantação mais comum. Nesse caso, você não tem hardware local para gerenciar ou manter atualizado ג€" tudo é executado no hardware do seu provedor de nuvem.
+O Microsoft Azure é um exemplo de provedor de nuvem pública.
+Em uma nuvem privada, você cria um ambiente de nuvem em seu próprio datacenter e fornece acesso de autoatendimento aos recursos de computação para usuários em sua organização.
+Isso oferece uma simulação de uma nuvem pública para seus usuários, mas você permanece totalmente responsável pela compra e manutenção dos serviços de hardware e software que fornece.
+Referência:
+https://docs.microsoft.com/en-gb/learn/modules/principles-cloud-computing/4-cloud-deployment-models
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+39) Pergunta:
+    Quais são as duas características da nuvem pública? Cada resposta correta apresenta uma solução completa.
+    NOTA: Cada seleção correta vale um ponto.
+
+Um. Hardware dedicado
+B. Conexões não seguras
+C. Armazenamento limitado
+# D. Preços medidos #                   (Correta)
+# E. Gerenciamento de autoatendimento#  (Correta)
+
+A nuvem fornece (D) preços medidos, pois você paga pelos recursos que usa. Também fornece (E) um serviço autogerenciado, pois você pode usar o portal para adicionar, alterar e também remover os recursos necessários quando precisar deles. 
 # PERGUNTAS SOBRE IaaS #
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+40) Pergunta:
+    Para completar a frase, selecione a opção apropriada na área de resposta.
+    
+    Ao planejar migrar um site Publico para o Azure;
+    Vc deve planejar:
+    ![image](https://github.com/user-attachments/assets/213c5556-85d6-4581-b4be-39c5eb9a175b)
+    Ao planejar a migração de um site público para o Azure, você deve planejar o pagamento dos custos de uso mensais. Isso ocorre porque o Azure usa o modelo de pagamento conforme o uso.
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+41) Pergunta:
+    Sua empresa planeja migrar todos os seus dados e recursos para o Azure.
+    O plano de migração da empresa afirma que apenas soluções de PaaS (Plataforma como Serviço) devem ser usadas no Azure.
+    Você precisa implantar um ambiente do Azure que atenda ao plano de migração da empresa.
+    Solução: você cria um Serviço de Aplicativo do Azure e bancos de dados SQL do Azure.
+    Isso atende ao objetivo?
+
+  Resposta: Sim
+    Serviço de Aplicativo e bancos de dados SQL do Azure são exemplos de soluções de PaaS do Azure
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+42) Pergunta:
+    Sua empresa planeja migrar todos os seus dados e recursos para o Azure.
+    O plano de migração da empresa afirma que apenas soluções de PaaS (Plataforma como Serviço) devem ser usadas no Azure.
+    Você precisa implantar um ambiente do Azure que atenda ao plano de migração da empresa.
+    Solução: você cria um Serviço de Aplicativo do Azure e máquinas virtuais do Azure que têm o Microsoft SQL Server instalado.
+    Isso atende ao objetivo?
+
+Resposta: Não
+  O Serviço de Aplicativo do Azure é um serviço de PaaS (Plataforma como Serviço). No entanto, as máquinas virtuais do Azure são um serviço de IaaS (infraestrutura como serviço). Portanto, esta solução não atende ao objetivo.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+43) Pergunta:
+    Sua empresa planeja migrar todos os seus dados e recursos para o Azure.
+    O plano de migração da empresa afirma que apenas soluções de PaaS (Plataforma como Serviço) devem ser usadas no Azure.
+    Você precisa implantar um ambiente do Azure que atenda ao plano de migração da empresa.
+    Solução: você cria um Serviço de Aplicativo do Azure e contas de Armazenamento do Azure.
+    Isso atende ao objetivo?
+
+Resposta: Não
+  O Armazenamento do Azure é uma PaaS
+  https://docs.microsoft.com/en-us/learn/modules/azure-networking-fundamentals/azure-virtual-network-fundamentals
+  Confira o vídeo em 1:14
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+44) Pergunta:
+  Sua empresa hospeda um aplicativo de contabilidade chamado App1 que é usado por todos os clientes da empresa.
+  O App1 tem baixo uso durante as três primeiras semanas de cada mês e muito alto durante a última semana de cada mês.
+  Qual benefício dos Serviços de Nuvem do Azure dá suporte ao gerenciamento de custos para esse tipo de padrão de uso?
+
+Resposta: Letra C
+  A. Alta disponibilidade
+  B. Alta latência
+  # C. elasticidade #       (Correta)
+  D. balanceamento de carga
+
+  Esticidade é o principal benefício aqui. A elasticidade permite que você dimensione automaticamente seus recursos do Azure (como o número de instâncias que executam seu aplicativo App1) para    
+  cima ou para baixo com base na demanda.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+45) Pergunta:
+    Você planeja migrar um aplicativo Web para o Azure. O aplicativo Web é acessado por usuários externos.
+    Você precisa recomendar uma solução de implantação em nuvem para minimizar a quantidade de esforço administrativo usado para gerenciar o aplicativo Web.
+    O que você deve incluir na recomendação?
+
+Resposta: Letra B
+A. Software como serviço (SaaS)
+# B. Plataforma como serviço (PaaS) #     (Correta)
+C. Infraestrutura como serviço (IaaS)
+D. Banco de dados como serviço (DaaS)
+
+A intenção/frase de efeito aqui é "minimizar o esforço administrativo" e é isso que o PaaS faz, dá algum nível de controle/administração ao contrário do SaaS
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+46) Pergunta:
+    Qual solução de implantação de nuvem é usada para máquinas virtuais do Azure e bancos de dados SQL do Azure? Para responder, selecione as opções apropriadas na área de resposta.
+NOTA: Cada seleção correta vale um ponto.
+Área quente:
+
+Resposta:
+![image](https://github.com/user-attachments/assets/10cd4410-479a-4dd2-9409-cde5640fcd73)
+
+Caixa 1:
+As máquinas virtuais do Azure são IaaS (Infraestrutura como Serviço).
+A infraestrutura como serviço é a categoria mais flexível de serviços em nuvem. O objetivo é dar a você controle total sobre o hardware que executa seu aplicativo (servidores de infraestrutura de TI e máquinas virtuais (VMs), armazenamento, redes e sistemas operacionais). Em vez de comprar hardware, com IaaS, você o aluga.
+Caixa 2:
+Os bancos de dados SQL do Azure são PaaS (Plataforma como Serviço).
+O Banco de Dados SQL do Azure é um mecanismo de banco de dados de PaaS (plataforma como serviço) totalmente gerenciado que lida com a maioria das funções de gerenciamento de banco de dados, como atualização, aplicação de patches, backups e monitoramento sem o envolvimento do usuário. O Banco de Dados SQL do Azure está sempre em execução na versão estável mais recente do Mecanismo de Banco de Dados do SQL Server
+e no sistema operacional corrigido com 99,99% de disponibilidade. Os recursos de PaaS internos ao banco de dados SQL do Azure permitem que você se concentre nas atividades de administração e otimização de banco de dados específicas do domínio que são críticas para seus negócios.
+Referência:
+https://docs.microsoft.com/en-gb/learn/modules/principles-cloud-computing/5-types-of-cloud-services https://docs.microsoft.com/en-us/azure/sql-database/sql-database-paas-index
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+47) Pergunta:
+  Você tem uma rede local que contém 100 servidores.
+  Você precisa recomendar uma solução que forneça recursos adicionais aos usuários. A solução deve minimizar os custos de capital e despesas operacionais.
+  O que você deve incluir na recomendação?
+
+Resposta: Letra D
+A. Uma migração completa para a nuvem pública
+B. um data center adicional
+C. Uma nuvem privada
+# D. Uma nuvem híbrida # (Correta)
+Utilize os recursos atuais e dimensione dinamicamente na nuvem pública se e quando necessário.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+48) Pergunta:
+  Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+  NOTA: Cada seleção correta vale um ponto.
+  Área quente:
+
+Resposta:
+  ![image](https://github.com/user-attachments/assets/7e797ee0-bdd4-4b2b-be07-1949c675af23)
+
+Caixa 1: Não -
+Não é verdade que uma empresa deva sempre migrar de um modelo de nuvem privada para implementar uma nuvem híbrida. Você pode começar com uma nuvem pública e depois combiná-la com uma infraestrutura local para implementar uma nuvem híbrida.
+
+Caixa 2: Sim -
+Uma empresa pode estender a capacidade de sua rede interna usando a nuvem pública. Isso é muito comum. Quando você precisar de mais capacidade, em vez de pagar por uma nova infraestrutura local, poderá configurar um ambiente de nuvem e conectar sua rede local ao ambiente de nuvem usando uma VPN.
+
+Caixa 3: Não -
+Não é verdade que apenas usuários convidados podem acessar recursos de nuvem. Você pode conceder a qualquer pessoa com uma conta no Azure Active Directory acesso aos recursos de nuvem.
+Há muitos cenários de autenticação, mas um comum é replicar suas contas locais do Active Directory para o Azure Active Directory e fornecer acesso às contas do Azure Active Directory. Outro método de autenticação comumente usado é a 'Federação', em que a autenticação para acesso a recursos de nuvem é passada para outro provedor de autenticação, como um Active Directory local. https://azure.microsoft.com/en-gb/overview/what-is-hybrid-cloud-computing/
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+49) Pergunta:
+  Você planeja migrar vários servidores de uma rede local para o Azure.
+  Qual é a vantagem de usar um serviço de nuvem pública para os servidores em uma rede local?
+
+Resposta: Letra D
+A. A nuvem pública é de propriedade do público, NÃO de uma empresa privada
+B. A nuvem pública é uma solução de crowdsourcing que fornece às empresas a capacidade de aprimorar a nuvem
+C. Todos os recursos da nuvem pública podem ser acessados livremente por todos os membros do público
+# D. A nuvem pública é uma entidade compartilhada em que várias corporações usam uma parte dos recursos da nuvem #
+Esse é o conceito central de uma nuvem pública. Várias organizações compartilham a mesma infraestrutura subjacente, mas seus dados e aplicativos são isolados uns dos outros. Esse modelo compartilhado permite economias de escala, e é por isso que os serviços de nuvem pública geralmente são mais econômicos do que as soluções locais.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+50) Pergunta:
+    Para completar a frase, selecione a opção apropriada na área de resposta.
+    O Azure Site Recovery fornece _ _ _ _ _ para maquinas virtuais
+
+Resposta:
+  ![image](https://github.com/user-attachments/assets/67369c5b-35d7-4e17-8d7e-fe4d475c5329)
+  
+o Azure Site Recovery ajuda a garantir a continuidade dos negócios, mantendo os aplicativos de negócios e as cargas de trabalho em execução durante as interrupções. O Site Recovery replica cargas de trabalho em execução em VMs (máquinas virtuais) físicas e virtuais de um site primário para um local secundário.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+51) Pergunta:
+    Em que tipo de modelo de nuvem todos os recursos de hardware pertencem a terceiros e são compartilhados entre vários locatários?
+
+Resposta: Letra C
+A. privado
+B. híbrido
+# C. público # 
+"compartilhado entre vários locatários" = > nuvem pública        
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+52) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+53) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+54) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+55) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+56) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+57) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+58) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+59) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+60) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
  
 3) Pergunta: 
 De acordo com o modelo de responsabilidade compartilhada, qual tipo de serviço de nuvem coloca maior responsabilidade sobre o cliente? 
