@@ -657,58 +657,257 @@ B. híbrido
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 52) Pergunta:
-    
+    Selecione a resposta que completa corretamente a frase.
 
 Resposta:
+![image](https://github.com/user-attachments/assets/67a7ad5f-90d4-4215-b784-3a4083cef905)
+
+virtualização de desktops e aplicativos" => AVD
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 53) Pergunta:
-    
+    Você tem 1.000 máquinas virtuais hospedadas nos hosts Hyper-V em um data center.
+    Você planeja migrar todas as máquinas virtuais para uma assinatura paga conforme o uso do Azure.
+    Você precisa identificar qual modelo de despesas usar para a solução planejada do Azure.
+    Qual modelo de gasto você deve identificar?
 
-Resposta:
+Resposta:Letra A
+# A. operacional #    (Correta)
+B. elástico
+C. capital
+D. escalonável
+
+Os modelos de despesas são CapEx ou OpEx (Capital ou Operacional). CapEx é o que você paga antecipadamente, no local, por servidores, racks, refrigeração, segurança, o próprio Datacenter. OpEx é o que você paga para manter sua infraestrutura operacional, como a equipe de TI.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 54) Pergunta:
-    
+    DRAG DROP -
+    Combine os benefícios dos serviços do Azure com as descrições corretas.
+    Instruções: Para responder, arraste o benefício apropriado da coluna à esquerda para sua descrição à direita. Cada benefício pode ser usado uma vez, mais de uma vez ou não ser usado.
+    NOTA: Cada correspondência correta vale um ponto.
+    Selecione e coloque:    
+    ![image](https://github.com/user-attachments/assets/d90aaa40-8b2d-4204-8dd8-c8eaf5b76f2c)
 
 Resposta:
+Caixa 1:
+Tolerância a falhas é a capacidade de um serviço permanecer disponível após uma falha de um dos componentes do serviço. Por exemplo, um serviço em execução em vários servidores pode suportar a falha de um dos servidores.
+Caixa 2:
+A recuperação de desastre é a recuperação de um serviço após uma falha. Por exemplo, restaurar uma máquina virtual do backup após uma falha de máquina virtual.
+Caixa 3:
+Escalabilidade dinâmica é a capacidade de recursos de computação serem adicionados a um serviço quando o serviço está sob carga pesada. Por exemplo, em um conjunto de dimensionamento de máquinas virtuais, instâncias adicionais da máquina virtual são adicionadas quando as máquinas virtuais existentes estão sob carga pesada.
+Caixa 4:
+Latência é o tempo que um serviço deve responder às solicitações. Por exemplo, o tempo que leva para uma página da Web ser retornada de um servidor Web. Baixa latência significa baixo tempo de resposta, o que significa uma resposta mais rápida.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 55) Pergunta:
-    
+    HOTSPOT -
+    Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+    NOTA: Cada seleção correta vale um ponto.
+    Área quente:    
 
 Resposta:
+![image](https://github.com/user-attachments/assets/c432ca00-44e4-4f86-bf0f-9197da372d0d)
+
+Caixa 1: Não -
+Não é verdade que uma empresa deva sempre migrar de uma rede interna para implementar uma nuvem híbrida. Você pode começar com uma nuvem pública e depois combiná-la com uma infraestrutura local para implementar uma nuvem híbrida.
+
+Caixa 2: Sim -
+Uma empresa pode estender os recursos de computação de sua rede interna usando a nuvem pública. Isso é muito comum. Quando você precisar de mais recursos, em vez de pagar por uma nova infraestrutura local, poderá configurar um ambiente de nuvem e conectar sua rede local ao ambiente de nuvem usando uma VPN.
+
+Caixa 3: Não -
+Não é verdade que apenas usuários convidados podem acessar recursos de nuvem. Você pode conceder a qualquer pessoa com uma conta no Azure Active Directory acesso aos recursos de nuvem.
+Há muitos cenários de autenticação, mas um comum é replicar suas contas locais do Active Directory para o Azure Active Directory e fornecer acesso às contas do Azure Active Directory. Outro método de autenticação comumente usado é a 'Federação', em que a autenticação para acesso a recursos de nuvem é passada para outro provedor de autenticação, como um Active Directory local.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 56) Pergunta:
-    
+    HOTSPOT -
+    Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+    NOTA: Cada seleção correta vale um ponto.
+    Área quente:
 
 Resposta:
+![image](https://github.com/user-attachments/assets/532863cb-3f96-4336-9b3e-0af67dbdf22e)
+EM ANALISE A RESPOSTA!!!  
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 57) Pergunta:
-    
+    Sua empresa tem uma rede local que contém vários servidores.
+    A empresa planeja reduzir as seguintes responsabilidades administrativas:
+    ✑ Fazer backup de dados
+    ✑ do aplicativo Substituir o hardware
+    ✑ do servidor com falha Gerenciar a segurança
+    ✑ do servidor físico Atualizar os sistemas
+    ✑ operacionais do servidor Gerenciar permissões para documentos
+    compartilhados A empresa planeja migrar servidores para máquinas virtuais do Azure.
+    Você precisa identificar quais responsabilidades administrativas serão eliminadas após a migração planejada.
+    Quais são as duas responsabilidades que você deve identificar? Cada resposta correta apresenta uma solução completa.
+    NOTA: Cada seleção correta vale um ponto.
 
-Resposta:
+Resposta: Letras A e C
+# A. Substituindo o hardware do servidor com falha              (Correta)
+B. Fazendo backup de dados do aplicativo
+# C. Gerenciando a segurança do servidor físico                   (Correta)
+D. Atualizando sistemas operacionais de servidor
+E. Gerenciando permissões para documentos compartilhados
+
+A e C não serão mais necessários se você selecionar Máquina Virtual do Azure.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 58) Pergunta:
-    
+    HOTSPOT -
+    Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+    NOTA: Cada seleção correta vale um ponto.
+    Área quente:
 
 Resposta:
+![image](https://github.com/user-attachments/assets/b0262ada-326a-405f-9d0b-fe824ef03300)
+
+Uma das principais mudanças que você enfrentará ao mudar da nuvem local para a nuvem pública é a mudança de despesas de capital (compra de hardware) para despesas operacionais (pagamento pelo serviço conforme o uso).
+
+Caixa 1: Não -
+Com o modelo de pagamento conforme o uso, você paga pelos serviços à medida que os usa. Isso é Opex (Despesas Operacionais), não CapEx (Despesas Capitais). CapEx é onde você paga por algo adiantado. Por exemplo, comprar um novo servidor físico.
+
+Caixa 2: Não -
+O pagamento de eletricidade para seu próprio datacenter será classificado como CapEx, não OpEx.
+
+Caixa 3: Sim -
+A implantação de seu próprio datacenter é um exemplo de CapEx. Isso ocorre porque você precisa comprar toda a infraestrutura antecipadamente antes de poder usá-la.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 59) Pergunta:
-    
+    Você planeja provisionar recursos de IaaS (infraestrutura como serviço) no Azure.
+    Qual recurso é um exemplo de IaaS?
 
 Resposta:
+A. um aplicativo Web do Azure
+# B. uma máquina virtual do Azure    (Correta)
+C. um aplicativo lógico do Azure
+D. um banco de dados SQL do Azure
+
+Máquina virtual do Azure --- IaaS (infraestrutura como serviço)
+Aplicativo Web do Azure ---- PaaS (Plataforma como Serviço)
+Aplicativo lógico do Azure ---- PaaS (Plataforma como Serviço)
+Banco de dados SQL do Azure ---- PaaS (Plataforma como Serviço)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 60) Pergunta:
+    Em quais modelos de nuvem você pode implantar servidores físicos?
+
+Resposta:
+# A. Nuvem privada e nuvem híbrida apenas         (Correta)
+B. Somente nuvem privada
+C. Nuvem privada, nuvem híbrida e nuvem pública
+D. Somente nuvem híbrida
+
+A palavra-chave aqui é "implantar servidores físicos?" Você pode implantar servidores físicos somente em nuvem privada e híbrida. Então a resposta é A.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+61) Pergunta:
+    DRAG DROP -
+    Combine o modelo de nuvem com a vantagem correta.
+    Instruções: Para responder, arraste o modelo de nuvem apropriado da coluna à esquerda para sua vantagem à direita. Cada modelo de nuvem pode ser usado uma vez, mais de uma vez ou não.
+    NOTA: Cada correspondência correta vale um ponto
+    Selecione e coloque:
+
+Resposta:
+![image](https://github.com/user-attachments/assets/6d487fe5-d14b-4af5-80e9-e5c34996d1ae)
+
+Caixa 1: Nuvem pública - Com uma nuvem pública, não há despesas de capital em hardware de servidor, etc. Você paga apenas pelos recursos de nuvem que usa à medida que os usa.
+Caixa 2: Nuvem privada - Existe uma nuvem privada no local, para que você tenha controle total sobre a segurança.
+Caixa 3: Nuvem híbrida – Uma nuvem híbrida é uma combinação de recursos de nuvem pública e recursos locais. Portanto, você tem a opção de usar qualquer um deles.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+62) Pergunta:
+    HOTSPOT -
+    Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+    NOTA: Cada seleção correta vale um ponto.
+    Área quente:
+
+Resposta:
+![image](https://github.com/user-attachments/assets/ef65522c-d4bc-4c8e-91ae-0a105ae203ba)
+
+Caixa 1: Não - Você não pode adicionar servidores físicos à nuvem pública. Você só pode implantar servidores virtuais na nuvem pública. Você pode estender uma nuvem privada implantando 
+               servidores virtuais em uma nuvem pública. Isso criaria uma nuvem híbrida.
+Caixa 2: Sim - Uma nuvem híbrida é uma combinação de uma nuvem privada e uma nuvem pública. Portanto, para criar uma nuvem híbrida, você deve implantar recursos em uma nuvem pública.
+Caixa 3: Não - Não é verdade que uma nuvem privada deva ser desconectada da Internet. As nuvens privadas podem ser e geralmente estão conectadas à Internet. ג€Nuvem privadaג€ significa que os 
+               servidores físicos são gerenciados por você. Isso não significa que ele esteja desconectado da Internet.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+63) Pergunta:
     
 
 Resposta:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+64) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+65) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+66) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+67) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+68) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+69) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+70) Pergunta:
+    
+
+Resposta:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
