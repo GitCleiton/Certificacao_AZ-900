@@ -708,15 +708,14 @@ Latência é o tempo que um serviço deve responder às solicitações. Por exem
 Resposta:
 ![image](https://github.com/user-attachments/assets/c432ca00-44e4-4f86-bf0f-9197da372d0d)
 
-Caixa 1: Não -
-Não é verdade que uma empresa deva sempre migrar de uma rede interna para implementar uma nuvem híbrida. Você pode começar com uma nuvem pública e depois combiná-la com uma infraestrutura local para implementar uma nuvem híbrida.
-
-Caixa 2: Sim -
-Uma empresa pode estender os recursos de computação de sua rede interna usando a nuvem pública. Isso é muito comum. Quando você precisar de mais recursos, em vez de pagar por uma nova infraestrutura local, poderá configurar um ambiente de nuvem e conectar sua rede local ao ambiente de nuvem usando uma VPN.
-
-Caixa 3: Não -
-Não é verdade que apenas usuários convidados podem acessar recursos de nuvem. Você pode conceder a qualquer pessoa com uma conta no Azure Active Directory acesso aos recursos de nuvem.
-Há muitos cenários de autenticação, mas um comum é replicar suas contas locais do Active Directory para o Azure Active Directory e fornecer acesso às contas do Azure Active Directory. Outro método de autenticação comumente usado é a 'Federação', em que a autenticação para acesso a recursos de nuvem é passada para outro provedor de autenticação, como um Active Directory local.
+Caixa 1: Não - Não é verdade que uma empresa deva sempre migrar de uma rede interna para implementar uma nuvem híbrida. Você pode começar com uma nuvem pública e depois combiná-la com uma 
+                infraestrutura local para implementar uma nuvem híbrida.
+Caixa 2: Sim - Uma empresa pode estender os recursos de computação de sua rede interna usando a nuvem pública. Isso é muito comum. Quando você precisar de mais recursos, em vez de pagar por uma 
+               nova infraestrutura local, poderá configurar um ambiente de nuvem e conectar sua rede local ao ambiente de nuvem usando uma VPN.
+Caixa 3: Não - Não é verdade que apenas usuários convidados podem acessar recursos de nuvem. Você pode conceder a qualquer pessoa com uma conta no Azure Active Directory acesso aos recursos de 
+               nuvem. Há muitos cenários de autenticação, mas um comum é replicar suas contas locais do Active Directory para o Azure Active Directory e fornecer acesso às contas do Azure Active 
+               Directory. Outro método de autenticação comumente usado é a 'Federação', em que a autenticação para acesso a recursos de nuvem é passada para outro provedor de autenticação, como 
+               um Active Directory local.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 56) Pergunta:
@@ -725,9 +724,7 @@ Há muitos cenários de autenticação, mas um comum é replicar suas contas loc
     NOTA: Cada seleção correta vale um ponto.
     Área quente:
 
-Resposta:
-![image](https://github.com/user-attachments/assets/532863cb-3f96-4336-9b3e-0af67dbdf22e)
-EM ANALISE A RESPOSTA!!!  
+Resposta: ESTA PERGUNTA É A MESMA QUE A 64 E QUE A RESPOSTA ESTA CORRETA
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 57) Pergunta:
@@ -746,7 +743,7 @@ EM ANALISE A RESPOSTA!!!
 Resposta: Letras A e C
 # A. Substituindo o hardware do servidor com falha              (Correta)
 B. Fazendo backup de dados do aplicativo
-# C. Gerenciando a segurança do servidor físico                   (Correta)
+# C. Gerenciando a segurança do servidor físico                 (Correta)
 D. Atualizando sistemas operacionais de servidor
 E. Gerenciando permissões para documentos compartilhados
 
@@ -764,15 +761,10 @@ Resposta:
 
 Uma das principais mudanças que você enfrentará ao mudar da nuvem local para a nuvem pública é a mudança de despesas de capital (compra de hardware) para despesas operacionais (pagamento pelo serviço conforme o uso).
 
-Caixa 1: Não -
-Com o modelo de pagamento conforme o uso, você paga pelos serviços à medida que os usa. Isso é Opex (Despesas Operacionais), não CapEx (Despesas Capitais). CapEx é onde você paga por algo adiantado. Por exemplo, comprar um novo servidor físico.
-
-Caixa 2: Não -
-O pagamento de eletricidade para seu próprio datacenter será classificado como CapEx, não OpEx.
-
-Caixa 3: Sim -
-A implantação de seu próprio datacenter é um exemplo de CapEx. Isso ocorre porque você precisa comprar toda a infraestrutura antecipadamente antes de poder usá-la.
-
+Caixa 1: Não - Com o modelo de pagamento conforme o uso, você paga pelos serviços à medida que os usa. Isso é Opex (Despesas Operacionais), não CapEx (Despesas Capitais). CapEx é onde você paga 
+               por algo adiantado. Por exemplo, comprar um novo servidor físico.
+Caixa 2: Não - O pagamento de eletricidade para seu próprio datacenter será classificado como CapEx, não OpEx.
+Caixa 3: Sim - A implantação de seu próprio datacenter é um exemplo de CapEx. Isso ocorre porque você precisa comprar toda a infraestrutura antecipadamente antes de poder usá-la.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 59) Pergunta:
@@ -835,53 +827,258 @@ Caixa 3: Não - Não é verdade que uma nuvem privada deva ser desconectada da I
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 63) Pergunta:
-    
+    Você tem 50 máquinas virtuais hospedadas localmente e 50 máquinas virtuais hospedadas no Azure. As máquinas virtuais locais e as máquinas virtuais do Azure se conectam entre si.
+    Que tipo de modelo de nuvem é esse?
 
-Resposta:
+Resposta: Letra A
+# A. híbrido Mais votados   (Correta)
+B. privado
+C. público
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 64) Pergunta:
-    
+    HOTSPOT -
+    Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+    NOTA: Cada seleção correta vale um ponto.
+    Área quente:
 
 Resposta:
+![image](https://github.com/user-attachments/assets/f0aba988-642f-42bf-9161-92d57380bc27)
+
+Caixa 1: Não - Uma solução PaaS não fornece acesso ao sistema operacional. O serviço de Aplicativos Web do Azure fornece um ambiente para você hospedar seus aplicativos Web.
+               Nos bastidores, os aplicativos Web são hospedados em máquinas virtuais que executam o IIS. No entanto, você não tem acesso direto à máquina virtual, ao sistema operacional ou
+               ao IIS.
+Caixa 2: Sim -
+Caixa 3: Sim - Uma solução de PaaS que hospeda aplicativos Web no Azure fornece a capacidade de dimensionar a plataforma automaticamente. Isso é conhecido como dimensionamento automático. Nos 
+               bastidores, os aplicativos Web são hospedados em máquinas virtuais que executam o IIS. O dimensionamento automático significa adicionar mais máquinas virtuais com balanceamento de 
+               carga para hospedar os aplicativos Web.Referências
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 65) Pergunta:
-    
+    Sua empresa planeja migrar todos os seus dados e recursos para o Azure.
+    O plano de migração da empresa afirma que apenas soluções de PaaS (Plataforma como Serviço) devem ser usadas no Azure.
+    Você precisa implantar um ambiente do Azure que atenda ao plano de migração da empresa.
+    Solução: você cria máquinas virtuais do Azure, bancos de dados SQL do Azure e contas de armazenamento do Azure.
+    Isso atende ao objetivo?
 
-Resposta:
+Resposta: Não
+As máquinas virtuais são IAAS, portanto, é automaticamente um não
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 66) Pergunta:
-    
+    Sua empresa planeja implantar vários aplicativos personalizados no Azure. Os aplicativos fornecerão serviços de faturamento aos clientes da empresa. Cada aplicativo terá vários aplicativos e     serviços de pré-requisito instalados.
+    Você precisa recomendar uma solução de implantação em nuvem para todos os aplicativos.
+    O que você deve recomendar?
 
 Resposta:
+A. Software como serviço (SaaS)
+B. Plataforma como serviço (PaaS)
+# C. Infraestrutura como serviço (laaS)   (Correta)
+
+O Saas não é adequado porque você não pode instalar aplicativos personalizados.
+O PaaS não é adequado devido a aplicativos CUSTOM.
+O IaaS é a resposta certa nesse cenário porque você pode instalar um aplicativo personalizado com requisitos e dependências específicos.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 67) Pergunta:
-    
+    HOTSPOT -
+    Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+    NOTA: Cada seleção correta vale um ponto.
+    Área quente:
 
 Resposta:
+![image](https://github.com/user-attachments/assets/2aaf5f9d-d5dd-4bd9-b372-984a5ba8b893)
+Caixa 1: Não - Construir uma infraestrutura de data center é uma despesa de capital, não uma despesa operacional.
+Caixa 2: Sim - OpEx são custos contínuos (custos de operações), como salários de funcionários.
+Caixa 3: Sim - OpEx são os custos contínuos (custos de operações), como leasing de software. Se você comprou o software como uma compra única, isso seria CapEx, mas o software de leasing está em 
+               andamento, então é OpEx.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 68) Pergunta:
-    
+    HOTSPOT -
+    Para completar a frase, selecione a opção apropriada na área de resposta.
+    Área quente:
 
 Resposta:
+![image](https://github.com/user-attachments/assets/7b11a5d8-22bc-49b1-9885-65d399b56232)
+
+O Azure Cosmos DB é um exemplo de um provedor de banco de dados em nuvem de PaaS (plataforma como serviço).
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 69) Pergunta:
-    
+    Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+    NOTA: Cada seleção correta vale um ponto.
+    Área quente:    
 
 Resposta:
+![image](https://github.com/user-attachments/assets/5e9eaaab-fcb8-4d0a-9f6e-74c7304696ff)
+
+Referência:
+https://azure.microsoft.com/en-us/overview/what-is-saas/
+https://azure.microsoft.com/en-us/overview/what-is-iaas/
+https://azure.microsoft.com/en-us/overview/what-is-paas/
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 70) Pergunta:
-    
+    Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+    NOTA: Cada seleção correta vale um ponto.
+    Área quente:
 
 Resposta:
+![image](https://github.com/user-attachments/assets/0b239954-4c44-4206-ab2b-f72bf98d2b74)
+
+Grupos de recursos aninhados não são permitidos
+Um recurso pode fazer parte de um grupo de recursos
+Não há restrição quanto à região do recurso no grupo de recursos.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+71) Pergunta:
+    Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+NOTA: Cada seleção correta vale um ponto.
+Área quente:
+
+Resposta:
+![image](https://github.com/user-attachments/assets/afb822ed-fb76-44b4-b56b-1f9c8bfd794a)
+
+Para o exame:
+* Sempre que há uma menção a uma Máquina Virtual do Azure (independentemente do que ela instalou nela), estamos falando de IaaS
+* O Banco de Dados SQL do Azure é um banco de dados relacional como serviço (DBaaS) hospedado no Azure que se enquadra na categoria do setor de PaaS (Plataforma como Serviço).
+* O Azure Cosmos DB é uma PaaS (plataforma como serviço) totalmente gerenciada.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+72) Pergunta:
+    HOTSPOT -
+    Selecione a resposta que completa corretamente a frase.
+    
+Resposta:
+![image](https://github.com/user-attachments/assets/6af33eea-1a46-46ba-aa1f-058a5f89058c)
+
+Você pode atribuir uma política a qualquer escopo ao qual tenha acesso, como um grupo de gerenciamento, assinatura ou grupo de recursos. No entanto, você não pode atribuir uma política diretamente a um recurso individual.
+Você pode atribuir um bloqueio em todos os recursos do Azure aos quais você tem acesso. Você pode aplicar um bloqueio em diferentes níveis de escopo: assinatura, grupo de recursos ou recurso individual.
+Então, a resposta certa é "Lock"!
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+73) Pergunta:
+    Sua empresa planeja migrar todos os seus dados e recursos para o Azure.
+    O plano de migração da empresa afirma que apenas soluções de PaaS (Plataforma como Serviço) devem ser usadas no Azure.
+    Você precisa implantar um ambiente do Azure que atenda ao plano de migração da empresa.
+    O que você deve criar?
+
+Resposta:
+A. Máquinas virtuais do Azure, bancos de dados SQL do Azure e contas de Armazenamento do Azure.
+B. um Serviço de Aplicativo do Azure e máquinas virtuais do Azure que têm o Microsoft SQL Server instalado.
+# C. um Serviço de Aplicativo do Azure e bancos de dados SQL do Azure.                                       (Correta)
+D. Contas de armazenamento do Azure e servidor Web em máquinas virtuais do Azure.
+
+IaaS – > Máquina Virtual do Azure, Conta de Armazenamento do Azure
+PaaS -> Serviço de Aplicativo do Azure, Banco de Dados SQL do Azure, Azure Cosmos DB, Azure Synapse Analytics
+SaaS -> Qutlook e-mail , Calendário , Microsoft Office 365
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+74) Pergunta:
+    O que um cliente fornece em um modelo de software como serviço (SaaS)?
+    
+Resposta:
+# A. Dados do aplicativo     (Correta)
+B. Armazenamento de dados
+C. Recursos de computação
+D. aplicação
+
+A. dados de aplicação - O cliente fornece
+B. armazenamento de dados - Terceiros fornecidos por terceiros
+C. recursos de computação - Terceiros fornecidos por terceiros
+D. software de aplicação - Terceiro fornecido
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+75) Pergunta:
+    HOTSPOT -
+    Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+    NOTA: Cada seleção correta vale um ponto.
+    Área quente:
+    
+Resposta:
+![image](https://github.com/user-attachments/assets/79ab9a15-6ef0-4133-a02c-6654ea8a492c)
+
+Explicação
+Arquivos do Azure é - Paas, não iaas
+O servidor DNS em execução na vm é um exemplo de - Iaas
+Microsoft Intune é - Saas
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+76) Pergunta:
+    Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+    NOTA: Cada seleção correta vale um ponto.
+    Área quente:
+
+Resposta:
+![image](https://github.com/user-attachments/assets/0154bad4-8152-4ac1-83f2-dcccf1d33b81)
+
+1: Sim. A computação em nuvem fornece escalabilidade elástica, permitindo que os recursos sejam ampliados ou reduzidos com base na demanda.
+2. Sim. Os clientes podem minimizar as despesas de capital (CapEx) usando uma nuvem pública, pois não precisam investir em infraestrutura física e, em vez disso, podem pagar pelos recursos com 
+        base no pagamento conforme o uso.
+3. Sim. A computação em nuvem aproveita a virtualização para fornecer serviços a vários clientes simultaneamente, permitindo a utilização e o isolamento eficientes de recursos.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+77) Pergunta:
+    Qual é o primeiro estágio do Microsoft Cloud Adoption Framework para Azure?
+
+Resposta:
+A. Adote a nuvem.
+B. Faça um plano.
+C. Prepare sua organização.
+# D. Defina sua estratégia.     (Correta)
+
+Lembre-se do SPRAGM!!
+Estratégia - Planejar - Pronto - Adotar - Governar - Gerenciar
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+78) Pergunta:
+    HOTSPOT -
+    Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+    NOTA: Cada seleção correta vale um ponto.
+    Área quente:
+    
+Resposta:
+![image](https://github.com/user-attachments/assets/d7cc9bb9-26e5-4501-b3f2-99f2387eeec7)
+
+Caixa 1: Não - Você não pode adicionar servidores físicos à nuvem pública. Você só pode implantar servidores virtuais na nuvem pública. Você pode estender uma nuvem privada implantando 
+               servidores virtuais em uma nuvem pública. Isso criaria uma nuvem híbrida.
+Caixa 2: Não - Existe uma nuvem privada no ciberespaço e é acessada pela Internet.
+Caixa 3: Sim - Uma nuvem híbrida, às vezes chamada de nuvem híbrida, é um ambiente de computação que combina um datacenter local (também chamado de nuvem privada) com uma nuvem pública, 
+               permitindo que dados e aplicativos sejam compartilhados entre eles. Algumas pessoas definem a infraestrutura de nuvem híbrida para incluir configurações "multicloud" em que uma 
+               organização usa mais de uma nuvem pública além de seu datacenter local.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+79) Pergunta:
+    HOTSPOT -
+    Para cada uma das instruções a seguir, selecione Sim se a instrução for verdadeira. Caso contrário, selecione Não.
+    NOTA: Cada seleção correta vale um ponto.
+    Área quente:
+    
+Resposta:
+![image](https://github.com/user-attachments/assets/73d5c019-cbb7-45cb-b0f3-21185f473944)
+
+Caixa 1: Não - A computação em nuvem permite que você use recursos virtualizados sem a necessidade de servidores físicos locais.
+               Você deve ter conectividade com a Internet para usar a computação em nuvem.
+Caixa 2: Sim - Os serviços em nuvem são acessados pela Internet, portanto, a conectividade é essencial.
+               Os custos para aumentar a capacidade de computação em nuvem são menores do que os custos para aumentar a capacidade de computação de um datacenter local.
+Caixa 3: Sim - Geralmente, os serviços em nuvem oferecem escalabilidade mais econômica em comparação com a infraestrutura local tradicional.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+80) Pergunta:
+    ARRASTAR SOLTAR -
+    Combine os benefícios da computação em nuvem com as descrições corretas.
+    Para responder, arraste o benefício apropriado da coluna à esquerda para sua descrição à direita. Cada benefício pode ser usado uma vez, mais de uma vez ou não ser usado.
+    NOTA: Cada correspondência correta vale um ponto.
+    Selecione e coloque:
+    
+Resposta:
+![image](https://github.com/user-attachments/assets/f503e245-7e09-4a08-a0d6-2d771b10a8df)
+
+Agilidade: os aplicativos podem ser implantados, testados e lançados rapidamente
+Distribuição geográfica: aplicativos e dados podem ser implantados em várias regiões
+Escalabilidade: os recursos podem ser provisionados dinamicamente para atender às demandas em constante mudança
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
